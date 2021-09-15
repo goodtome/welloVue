@@ -5,4 +5,21 @@
         <title></title>
         <script src="vue.js" type="text/javascript" charset="utf-8"></script>
     </head>
+    <body>
+        <div id="app">
+            {{message}} {{name}}
+        </div>
+
+        <script type="text/javascript">
+            var app = new Vue({
+                el: '#app',
+                data :{
+                    masseage: 'hello vue!',
+                    name:"Vue"
+
+                } 
+            });
+        </script>
+
+    </body>
 </html>
